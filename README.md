@@ -31,8 +31,13 @@ SQL (BigQuery), and data visualization.
 
 ## Project Structure
 olist-ecommerce-analysis/
+
 │
+
 ├── data/              # Download CSVs here (not included in repo)
+
 ├── charts/            # Saved visualizations
+
 ├── analysis.ipynb     # Main notebook with outputs
+
 └── README.md
