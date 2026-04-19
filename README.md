@@ -22,11 +22,16 @@ SQL (BigQuery), and data visualization.
 - **Jupyter Notebook** — reproducible analysis
 
 ## Dataset
-Download from Kaggle: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce  
-The notebook will auto-download it via Kaggle API on first run.
+[Brazilian E-Commerce by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — available on Kaggle
+
+## How to Run
+1. Download the dataset from the link above
+2. Place all CSV files in a folder named `data/` in the same directory as `analysis.ipynb`
+3. Run the notebook
 
 ## Project Structure
 olist-ecommerce-analysis/
+├── data/              # Download CSVs here (not included in repo)
 ├── charts/            # Saved visualizations
-├── analysis.ipynb     # Main notebook
+├── analysis.ipynb     # Main notebook with outputs
 └── README.md
